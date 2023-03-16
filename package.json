@@ -12,13 +12,13 @@
   },
   "author": "Emmanuel Velazquez Lopez",
   "license": "ISC",
-  "homepage": "https://github.com/emmveqz/currency-reports-tools#readme",
+  "homepage": "https://github.com/emmveqz/currency-reports-core-vars#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/emmveqz/currency-reports-tools.git"
+    "url": "git+ssh://git@github.com/emmveqz/currency-reports-core-vars.git"
   },
   "bugs": {
-    "url": "https://github.com/emmveqz/currency-reports-tools/issues"
+    "url": "https://github.com/emmveqz/currency-reports-core-vars/issues"
   },
   "publishConfig": {
     "access": "public",
