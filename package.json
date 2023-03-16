@@ -1,0 +1,36 @@
+{
+  "name": "@emmveqz/btc-reports-core-vars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/gen-config-vars.js",
+  "types": "dist/gen-config-vars.d.ts",
+  "scripts": {
+    "build": "npx tsc --build ./tsconfig.json ",
+    "clean-js": "rm -f ./src/*.js",
+    "prepack": "npm run clean-js   &&   npm run build",
+    "dummy": "test"
+  },
+  "author": "Emmanuel Velazquez Lopez",
+  "license": "ISC",
+  "homepage": "https://github.com/emmveqz/currency-reports-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emmveqz/currency-reports-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emmveqz/currency-reports-tools/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bundledDependencies": [
+  ],
+  "dependencies": {
+    "@types/node": "^12.7.3"
+  },
+  "devDependencies": {
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.4"
+  }
+}
