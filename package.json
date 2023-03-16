@@ -1,7 +1,7 @@
 {
-  "name": "@emmveqz/btc-reports-core-vars",
+  "name": "@emmveqz/currency-reports-core-vars",
   "version": "1.0.0",
-  "description": "",
+  "description": "Currency Reports (core vars)",
   "main": "dist/gen-config-vars.js",
   "types": "dist/gen-config-vars.d.ts",
   "scripts": {
